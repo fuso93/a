@@ -39,9 +39,8 @@ const App = () => {
                 tabBarInactiveTintColor: "lightGray"
             })}
           >
-
+              <Tab.Screen name="Chat" component={Chat} />
             <Tab.Screen name="Home" component={Home} />
-            <Tab.Screen name="Chat" component={Chat} />
             <Tab.Screen name="Alarm" component={Alarm} />
             <Tab.Screen name="Profile" component={Profile} />
           </Tab.Navigator>
